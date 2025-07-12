@@ -1,4 +1,4 @@
-#include "./headers/vigenere_autokey.h"
+#include "vigenere_autokey.h"
 
 
 void vigenere_encrypt(const std::string& plain_text, const std::string& key, std::string& cipher_text){
@@ -40,7 +40,6 @@ void vigenere_decrypt(const std::string&  cipher_text, const std::string& key, s
     }
 
     plain_text.resize(cipher_text.length());
-    long key_len = key.length();
     for (long i = 0; i < cipher_text.length(); i++){
         char _key = key[i % key.length()];
         long shift = 0;

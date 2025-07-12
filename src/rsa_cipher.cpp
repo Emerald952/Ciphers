@@ -1,7 +1,4 @@
-#include "./headers/rsa_cipher.h"
-
-#include <iostream>
-#include <limits>
+#include "rsa_cipher.h"
 
 void RSA::RSA_init(long p, long q){
     if (is_prime(p) == 0 || is_prime(q) == 0)

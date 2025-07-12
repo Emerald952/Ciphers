@@ -1,7 +1,7 @@
-#include "headers/caesar_cipher.h"
-#include "headers/xor_ciphers.h"
-#include "headers/vigenere_autokey.h"
-#include "headers/rsa_cipher.h"
+#include "caesar_cipher.h"
+#include "xor_ciphers.h"
+#include "vigenere_autokey.h"
+#include "rsa_cipher.h"
 
 #include <limits>
 

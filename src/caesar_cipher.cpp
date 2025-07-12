@@ -1,5 +1,4 @@
-#include "./headers/caesar_cipher.h"
-#include <iostream>
+#include "caesar_cipher.h"
 
 void Caesar_encrypt(const std::string& plain_text, long key, std::string& cipher_text){
     cipher_text.resize(plain_text.length());

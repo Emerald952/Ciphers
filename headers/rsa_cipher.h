@@ -1,10 +1,12 @@
 #ifndef RSA_CIPHER_H
 #define RSA_CIPHER_H
 
+#include "math_utility.h"
+
 #include <iostream>
 #include <string>
 #include <vector>
-#include "math_utility.h"
+#include <limits>
 
 struct rsa_key_pair{
     long n;

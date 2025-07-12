@@ -2,6 +2,7 @@
 #define XOR_CIPHER_H
 
 #include <string>
+#include <iostream>
 
 //XOR CIPHER FUNCTIONS
 void str_to_binary(const std::string& str);

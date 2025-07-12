@@ -1,5 +1,4 @@
-#include "./headers/xor_ciphers.h"
-#include <iostream>
+#include "xor_ciphers.h"
 
 void str_to_binary(const std::string& str){
     for(char c : str){

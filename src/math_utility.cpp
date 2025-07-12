@@ -1,4 +1,4 @@
-#include "./headers/math_utility.h"
+#include "math_utility.h"
 
 long hcf(long num1, long num2){
     if (num1 < num2){
